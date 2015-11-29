@@ -2,3 +2,26 @@ X - Story 0: As a user of this application I need to be able to see it
 - Set up project
 - Set up web server
 - Serve a simple page
+
+Story 1: As a user I would like to be able to select for my moment
+
+    Entry Time
+        Date
+        Month
+        Year
+        Hours
+        Minutes
+
+    Carbohydrate Portions
+    Blood Glucose
+    Quick Acting Insulin
+    QA Injection Site
+    Background Insulin
+    BI Injection Site
+    Entry Type
+    Comments
+
+    Ratio (QA:CP)
+    Ketones
+
+
