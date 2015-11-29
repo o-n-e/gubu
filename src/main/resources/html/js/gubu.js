@@ -1,6 +1,6 @@
-var gubuApp = angular.module('gubuApp', []);
+var gubuApp = angular.module('gubuApp', ['ngResource']);
 
-gubuApp.controller('MomentController', function ($scope) {
+gubuApp.controller('MomentController', function ($scope, $resource) {
 
     $scope.dates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
@@ -64,5 +64,10 @@ gubuApp.controller('MomentController', function ($scope) {
         'Waking',
     ];
 
+    $scope.saveMoment = function() {
+        $scope.moment.userId = 1;
+        var MomentToSave = $resource('/service/gubu/moment/');
+        MomentToSave.save($scope.moment);
+    }
 
 });

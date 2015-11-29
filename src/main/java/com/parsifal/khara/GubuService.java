@@ -1,6 +1,7 @@
 package com.parsifal.khara;
 
 
+import com.mongodb.MongoClient;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.config.Bootstrap;
@@ -21,6 +22,6 @@ public class GubuService extends Service<Configuration> {
 
     @Override
     public void run(Configuration configuration, Environment environment) throws Exception {
-        environment.addResource(new GubuResource());
+        environment.addResource(new GubuResource(new MongoClient()));
     }
 }
