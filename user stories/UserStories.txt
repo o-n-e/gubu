@@ -1,0 +1,4 @@
+Story 0: Show something on screen
+- Set up project
+- Set up web server
+- Serve a simple page
