@@ -3,7 +3,7 @@ X - Story 0: As a user of this application I need to be able to see it
 - Set up web server
 - Serve a simple page
 
-Story 1: As a user I would like to be able to select for my moment
+X Story 1: As a user I would like to be able to select for my moment
 
     Entry Time
         Date
@@ -24,4 +24,6 @@ Story 1: As a user I would like to be able to select for my moment
     Ratio (QA:CP)
     Ketones
 
+X Story 2: Make the app look modern
 
+Story 3: Save the moment
