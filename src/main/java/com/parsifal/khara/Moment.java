@@ -7,24 +7,6 @@ public class Moment {
         return id;
     }
 
-    /*  {
-            "date": 1,
-                "month": "Jan",
-                "year": 2015,
-                "hour": 1,
-                "minute": 0,
-                "carbs": "1",
-                "glucose": "1",
-                "bolus": "1",
-                "bolusInjectionSite": "Right Stomach",
-                "ratio": "2",
-                "basal": "1",
-                "basalInjectionSite": "Right Stomach",
-                "entryType": "Before Breakfast",
-                "keytones": "7",
-                "comments": "t",
-                "userId": 1
-        }*/
     @Id
     private String id;
 
@@ -108,4 +90,23 @@ public class Moment {
     public int getUserId() {
         return userId;
     }
+
+        /*  {
+            "date": 1,
+                "month": "Jan",
+                "year": 2015,
+                "hour": 1,
+                "minute": 0,
+                "carbs": "1",
+                "glucose": "1",
+                "bolus": "1",
+                "bolusInjectionSite": "Right Stomach",
+                "ratio": "2",
+                "basal": "1",
+                "basalInjectionSite": "Right Stomach",
+                "entryType": "Before Breakfast",
+                "keytones": "7",
+                "comments": "t",
+                "userId": 1
+        }*/
 }
