@@ -2,9 +2,7 @@ X - Story 0: As a user of this application I need to be able to see it
 - Set up project
 - Set up web server
 - Serve a simple page
-
 -----------------------------------------------------------------------
-
 X Story 1: As a user I would like to be able to select for my moment
 
     Entry Time
@@ -25,15 +23,13 @@ X Story 1: As a user I would like to be able to select for my moment
 
     Ratio (QA:CP)
     Ketones
-
 -----------------------------------------------------------------------
-
 X Story 2: Make the app look modern
-
 -----------------------------------------------------------------------
-
 X Story 3: Save the moment
-
 -----------------------------------------------------------------------
+X Story 4: As a systems admin I need to know the connection to MongoDB is closed when the server stops
+-----------------------------------------------------------------------
+Story 5: I want to see that my moment has been saved to the database
 
-Story 4: As a systems admin I need to know the connection to MongoDB is closed when the server stops
+
