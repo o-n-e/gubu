@@ -1,4 +1,4 @@
-package com.parsifal.khara;
+package com.parsifal.gubu;
 
 import com.mongodb.MongoClient
 import org.bson.types.ObjectId

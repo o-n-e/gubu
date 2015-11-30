@@ -1,4 +1,4 @@
-package com.parsifal.khara;
+package com.parsifal.gubu;
 
 import org.mongodb.morphia.annotations.Id;
 

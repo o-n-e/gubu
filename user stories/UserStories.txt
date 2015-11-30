@@ -32,4 +32,8 @@ X Story 2: Make the app look modern
 
 -----------------------------------------------------------------------
 
-Story 3: Save the moment
+X Story 3: Save the moment
+
+-----------------------------------------------------------------------
+
+Story 4: As a systems admin I need to know the connection to MongoDB is closed when the server stops
