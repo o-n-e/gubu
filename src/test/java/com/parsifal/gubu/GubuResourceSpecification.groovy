@@ -1,6 +1,8 @@
 package com.parsifal.gubu;
 
 import com.mongodb.MongoClient
+import com.parsifal.gubu.model.Moment
+import com.parsifal.gubu.resource.GubuResource
 import org.bson.types.ObjectId
 import spock.lang.Ignore
 import spock.lang.Specification

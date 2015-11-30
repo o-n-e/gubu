@@ -1,7 +1,7 @@
-package com.parsifal.gubu;
-
+package com.parsifal.gubu.service;
 
 import com.mongodb.MongoClient;
+import com.parsifal.gubu.resource.GubuResource;
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.assets.AssetsBundle;
 import com.yammer.dropwizard.config.Bootstrap;

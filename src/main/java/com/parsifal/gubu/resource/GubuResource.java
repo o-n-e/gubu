@@ -1,6 +1,7 @@
-package com.parsifal.gubu;
+package com.parsifal.gubu.resource;
 
 import com.mongodb.MongoClient;
+import com.parsifal.gubu.model.Moment;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
 
