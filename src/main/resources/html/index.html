@@ -9,6 +9,11 @@
 <body>
 
 <div ng-controller="MomentController" class="container">
+
+    <alert ng-repeat="message in messages" type="message.type" close="closeAlert($index)">
+        {{message.msg}}
+    </alert>
+
     <form ng-submit="saveMoment()">
         <div class="form-group">
             <label>Entry Time</label>
@@ -70,6 +75,7 @@
 
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/angular-resource.min.js"></script>
+<script type="text/javascript" src="js/ui-bootstrap-tpls-0.10.0.min.js"></script>
 <script type="text/javascript" src="js/gubu.js"></script>
 
 

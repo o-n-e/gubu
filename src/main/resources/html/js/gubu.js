@@ -1,10 +1,10 @@
-var gubuApp = angular.module('gubuApp', ['ngResource']);
+var gubuApp = angular.module('gubuApp', ['ngResource', 'ui.bootstrap']);
 
 gubuApp.controller('MomentController', function ($scope, $resource) {
 
     $scope.dates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
 
-        $scope.months = [
+    $scope.months = [
         'Jan',
         'Feb',
         'Mar',
@@ -64,10 +64,19 @@ gubuApp.controller('MomentController', function ($scope, $resource) {
         'Waking',
     ];
 
+    $scope.messages = [];
+
     $scope.saveMoment = function() {
         $scope.moment.userId = 1;
         var MomentToSave = $resource('/service/gubu/moment/');
-        MomentToSave.save($scope.moment);
+        MomentToSave.save($scope.moment, function(moment) {
+                $scope.messages.push({type: 'success', msg: 'Message saves! Moment ID: ' + moment.id})
+            }
+        );
     }
+
+    $scope.closeAlert = function (index) {
+        $scope.messages.splice(index, 1);
+    };
 
 });
