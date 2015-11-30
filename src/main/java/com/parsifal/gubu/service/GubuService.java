@@ -22,6 +22,8 @@ public class GubuService extends Service<Configuration> {
 
     @Override
     public void run(Configuration configuration, Environment environment) throws Exception {
+        MongoClient mongoClient = new MongoClient();
+        environment.manage(new MongoClientManager(mongoClient));
         environment.addResource(new GubuResource(new MongoClient()));
     }
 }
