@@ -32,8 +32,9 @@ X Story 4: As a systems admin I need to know the connection to MongoDB is closed
 -----------------------------------------------------------------------
 Story 5: I would like to not have to enter values for one or more criteria
 
+Story 6: I want to refactor to a more up to date Dropwizard
 
-I want to refactor to a more up to date Dropwizard
+
 I want to do the date as a date
 I want to see that my moment has been saved to the database
 I to be able to run in the cloud
