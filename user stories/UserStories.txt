@@ -30,6 +30,14 @@ X Story 3: Save the moment
 -----------------------------------------------------------------------
 X Story 4: As a systems admin I need to know the connection to MongoDB is closed when the server stops
 -----------------------------------------------------------------------
-Story 5: I want to see that my moment has been saved to the database
+Story 5: I would like to not have to enter values for one or more criteria
+
+
+I want to refactor to a more up to date Dropwizard
+I want to do the date as a date
+I want to see that my moment has been saved to the database
+I to be able to run in the cloud
+
+
 
 
